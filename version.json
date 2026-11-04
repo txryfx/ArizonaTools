@@ -7,7 +7,7 @@
         "arch": "x32",
         "build": 78,
         "version": "2.1",
-        "url": "https://github.com/txryfx/ArizonaTools/releases/download/v79/ArzTools_Rodina_MonetLoader_x32_Rodina_v31.lua",
+        "url": "https://github.com/txryfx/ArizonaTools/releases/download/v78_32/arztools.luac",
         "changes": [
           "Обновления и исправления для MonetLoader x32"
         ]
@@ -16,7 +16,7 @@
         "arch": "x64",
         "build": 78,
         "version": "2.1",
-        "url": "https://github.com/txryfx/ArizonaTools/releases/download/v79/ArzTools_Rodina_MonetLoader_ARM64_v31.lua",
+        "url": "https://github.com/txryfx/ArizonaTools/releases/download/v78_64/arztools.lua",
         "changes": [
           "Обновления и исправления для MonetLoader ARM64"
         ]
