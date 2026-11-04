@@ -8,7 +8,7 @@
         "build": 79,
         "version": "2.1",
         "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/arztools.lua",
-        "sha256": "C8978109BB77B7661CEE9FD06694E285C425655E3DB8FD0CA6936D49751D3229",
+        "sha256": "c8978109bb77b7661cee9fd06694e285c425655e3db8fd0ca6936d49751d3229",
         "changes": [
           "More Fixes"
         ]
