@@ -7,7 +7,7 @@
         "arch": "x32",
         "build": 79,
         "version": "2.1",
-        "url": "https://github.com/txryfx/ArizonaTools/raw/refs/heads/main/arztools.lua",
+        "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/arztools.lua",
         "changes": [
           "Фикс перехода в рекон при ответе на репорт"
         ]
