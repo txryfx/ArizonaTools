@@ -1,7 +1,26 @@
 {
-    "latest": 103,
-    "version": "1.21 Test Revision",
-    "script_url": "https://github.com/deadmv/ArizonaTools/raw/main/arztools.luac",
-    "changes": [
-    ]
+  "schema": 1,
+  "project": "arztools-rodina-mobile",
+  "channels": {
+    "stable": {
+      "x32": {
+        "arch": "x32",
+        "build": 78,
+        "version": "2.1",
+        "url": "https://github.com/txryfx/ArizonaTools/releases/download/v79/ArzTools_Rodina_MonetLoader_x32_Rodina_v31.lua",
+        "changes": [
+          "Обновления и исправления для MonetLoader x32"
+        ]
+      },
+      "x64": {
+        "arch": "x64",
+        "build": 78,
+        "version": "2.1",
+        "url": "https://github.com/txryfx/ArizonaTools/releases/download/v79/ArzTools_Rodina_MonetLoader_ARM64_v31.lua",
+        "changes": [
+          "Обновления и исправления для MonetLoader ARM64"
+        ]
+      }
+    }
+  }
 }
