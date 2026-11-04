@@ -9,7 +9,7 @@
         "version": "2.1",
         "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/arztools.lua",
         "changes": [
-          "Фикс перехода в рекон при ответе на репорт"
+          "More Fixes"
         ]
       },
       "x64": {
@@ -18,7 +18,7 @@
         "version": "2.1",
         "url": "https://github.com/txryfx/ArizonaTools/releases/download/v78_64/arztools.lua",
         "changes": [
-          "Обновления и исправления для MonetLoader ARM64"
+          "РћР±РЅРѕРІР»РµРЅРёСЏ Рё РёСЃРїСЂР°РІР»РµРЅРёСЏ РґР»СЏ MonetLoader ARM64"
         ]
       }
     }
