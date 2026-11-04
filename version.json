@@ -5,11 +5,11 @@
     "stable": {
       "x32": {
         "arch": "x32",
-        "build": 78,
+        "build": 79,
         "version": "2.1",
-        "url": "https://github.com/txryfx/ArizonaTools/releases/download/v78_32/arztools.luac",
+        "url": "https://github.com/txryfx/ArizonaTools/raw/refs/heads/main/arztools.lua",
         "changes": [
-          "Обновления и исправления для MonetLoader x32"
+          "Фикс перехода в рекон при ответе на репорт"
         ]
       },
       "x64": {
