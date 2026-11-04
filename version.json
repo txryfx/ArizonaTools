@@ -7,7 +7,7 @@
         "arch": "x32",
         "build": 79,
         "version": "2.1",
-        "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/arztools.lua",
+        "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x32/arztools.lua",
         "sha256": "c8978109bb77b7661cee9fd06694e285c425655e3db8fd0ca6936d49751d3229",
         "changes": [
           "More Fixes"
@@ -15,9 +15,10 @@
       },
       "x64": {
         "arch": "x64",
-        "build": 78,
+        "build": 79,
         "version": "2.1",
-        "url": "https://github.com/txryfx/ArizonaTools/releases/download/v78_64/arztools.lua",
+        "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x64/arztools.lua",
+        "sha256": "fdcf4b802338b6b82ef77ba1d3cf9f43a04afab5fc5383af36783f33e1150ca8",
         "changes": [
           "Обновления и исправления для MonetLoader ARM64"
         ]
