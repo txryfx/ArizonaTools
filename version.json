@@ -5,12 +5,14 @@
     "stable": {
       "x32": {
         "arch": "x32",
-        "build": 79,
+        "build": 80,
         "version": "2.1",
         "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x32/arztools.lua",
-        "sha256": "c8978109bb77b7661cee9fd06694e285c425655e3db8fd0ca6936d49751d3229",
+        "sha256": "d42cd7f3bca34dfaa01ddfa1e31c243c1fc02ba505d917ddf465ea3b23803d98",
         "changes": [
-          "More Fixes"
+          "Исправлена система обновлений",
+          "Исправлена система отрисовки графического интерфейса",
+          "Прочие мелкие исправление и доработки"
         ]
       },
       "x64": {
