@@ -8,7 +8,7 @@
         "build": 82,
         "version": "2.2",
         "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x32/arztools.lua",
-        "sha256": "844db033312f030ba1fe9e4cc0ca46117019cc0aab4df433751454debe2d9b42",
+        "sha256": "73ef3f3501d5e1e21aa3987daf5163d49b0870823bc3e05c3c1b392b8803c965",
         "changes": [
           "Исправлен флуд рекона. Добавлено ограничение автоматических попыток восстановления слежки",
           "Исправлена проблема с крашем тулса при попытке использования системы GPS при ответе на репорт",
