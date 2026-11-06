@@ -5,10 +5,10 @@
     "stable": {
       "x32": {
         "arch": "x32",
-        "build": 81,
+        "build": 82,
         "version": "2.2",
         "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x32/arztools.lua",
-        "sha256": "49a33e7c309d08ecb850f455472e4cde2e3aebb07f0229b0e46a0bb3e854f367",
+        "sha256": "844db033312f030ba1fe9e4cc0ca46117019cc0aab4df433751454debe2d9b42",
         "changes": [
           "Исправлен флуд рекона. Добавлено ограничение автоматических попыток восстановления слежки",
           "Исправлена проблема с крашем тулса при попытке использования системы GPS при ответе на репорт",
