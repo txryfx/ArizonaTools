@@ -8,7 +8,7 @@
         "build": 86,
         "version": "2.4",
         "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x32/arztools.lua",
-        "sha256": "96d52c33812f66ee1fdde67903123340ceed71df28ef35b164cca51132dc0ba6",
+        "sha256": "b2aa90c9862f00478f89d60491b77bc19fa16ba1ed7b534dffddb6903eaedc2e",
         "changes": [
           "Исправлено переливание ников в админ-чекере, включая настройку «Выделять себя».",
           "Исправлено определение цели при переключении рекона и добавлено восстановление слежки при потере цели или зависании камеры.",
