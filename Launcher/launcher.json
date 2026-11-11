@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/txryfx/ArizonaTools/releases/latest",
-  "version": "17.9.3",
-  "rodina_version": "17.9.5",
-  "custom_version": "17.9.5",
+  "version": "v17.9.5",
+  "rodina_version": "v17.9.5",
+  "custom_version": "v17.9.5",
   "force_update": true
 }

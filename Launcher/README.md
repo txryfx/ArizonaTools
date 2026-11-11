@@ -1,8 +1,8 @@
-# 🧩 NeoMLoader [Arizona/Rodina] [![Download Latest Release](https://img.shields.io/github/v/release/txryfx/ArizonaTools?label=Download%20Latest%20APK&style=for-the-badge&color=success)](https://github.com/txryfx/ArizonaTools/releases/latest)
+# 🧩 NeoMLoader [Rodina] [![Download Latest Release](https://img.shields.io/github/v/release/txryfx/ArizonaTools?label=Download%20Latest%20APK&style=for-the-badge&color=success)](https://github.com/txryfx/ArizonaTools/releases/latest)
 
 <img width="900" height="400" alt="Logo" src="https://github.com/user-attachments/assets/e9e33c68-1e3f-4d88-9338-00ef7613d416" />
 
-An **external automation tool** (patcher) that adds **Lua scripting support** to the **[Arizona/Rodina](https://arzgame.online/)** client through the external **[NeoMLoader](https://t.me/neomloader)** library.
+An **external automation tool** (patcher) that adds **Lua scripting support** to the **[Rodina](https://arzgame.online/)** client through the external **[NeoMLoader](https://t.me/neomloader)** library.
 
 This repository contains a build pipeline that dynamically patches the game. It is responsible for:
 - 📥 Downloading the official client and decompiling it locally
@@ -131,4 +131,4 @@ python build_launcher.py rodina
 
 - **The code in this repository** (build scripts, Java wrappers, and custom Lua helpers) is released under the [MIT License](LICENSE). You are free to modify and distribute these specific tools.
 - **NeoMLoader** is an another project created by [bymaga0](https://t.me/neomloader). Please refer to bymaga0 for specific licensing terms.
-- **Arizona/Rodina Mobile** and all related trademarks, copyrights, and assets are the property of their respective owners. This project claims no ownership over the original game client.
+- **Rodina Mobile** and all related trademarks, copyrights, and assets are the property of their respective owners. This project claims no ownership over the original game client.
