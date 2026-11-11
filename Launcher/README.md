@@ -1,6 +1,7 @@
-# 🧩 NeoMLoader [Rodina] [![Download Latest Release](https://img.shields.io/github/v/release/txryfx/ArizonaTools?label=Download%20Latest%20APK&style=for-the-badge&color=success)](https://github.com/txryfx/ArizonaTools/releases/latest)
+<img width="103" height="17" alt="image" src="https://github.com/user-attachments/assets/c0e00626-312e-4ac1-a88c-9be7e2f937dc" /># 🧩 NeoMLoader [Rodina] [![Download Latest Release](https://img.shields.io/github/v/release/txryfx/ArizonaTools?label=Download%20Latest%20APK&style=for-the-badge&color=success)](https://github.com/txryfx/ArizonaTools/releases/latest)
 
-<img width="900" height="400" alt="Logo" src="https://github.com/user-attachments/assets/e9e33c68-1e3f-4d88-9338-00ef7613d416" />
+<img width="1846" height="852" alt="banner" src="https://github.com/user-attachments/assets/089c9cff-b156-4b8b-a02b-36a915c7428e" />
+
 
 An **external automation tool** (patcher) that adds **Lua scripting support** to the **[Rodina](https://arzgame.online/)** client through the external **[NeoMLoader](https://t.me/neomloader)** library.
 
