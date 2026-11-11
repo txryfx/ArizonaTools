@@ -16,12 +16,12 @@
       },
       "x64": {
         "arch": "x64",
-        "build": 79,
-        "version": "2.1",
-        "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x64/arztools.lua",
-        "sha256": "fdcf4b802338b6b82ef77ba1d3cf9f43a04afab5fc5383af36783f33e1150ca8",
+        "build": 88,
+        "version": "2.4",
+        "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x64/arztools_x64.lua",
+        "sha256": "bed9208fa74f5bd3c8432b180a0ce917ec0e2eaabb9f0e5a419388b9bdfbf634",
         "changes": [
-          "Обновления и исправления для MonetLoader ARM64"
+          "Адаптация архитектуры x64"
         ]
       }
     }
