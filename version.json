@@ -19,9 +19,9 @@
         "build": 89,
         "version": "2.4",
         "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x64/arztools_x64.lua",
-        "sha256": "1a398b736b555702a6e050244bd69e9a2c6be1b658e0a35c89c4c691a7c3cd20",
+        "sha256": "a5d6c5c805902d36674fb03ec3b0c3a14fc0e42b14c2969cce5ad9de4806cb08",
         "changes": [
-          "Адаптация архитектуры x64",
+          "Адаптация архитектуры x64 NeoMLoader",
           "Переписана механика работы систем AirWarp & AirBrake",
           "Переписаны состояния работы рекона",
           "Переписана система отображения администрации в админ-чекере",
