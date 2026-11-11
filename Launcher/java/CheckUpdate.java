@@ -44,8 +44,12 @@ public class CheckUpdate {
             String updateUrl = jsonObject.getString("url");
             
             String currentVersion = jsonObject.getString(packageName.contains("rodina") ? "rodina_version" : "version");
-            
             String remoteCustomVersion = jsonObject.optString("custom_version", currentVersion);
+
+            appVersion = appVersion != null ? appVersion.trim().replaceFirst("^[vV]", "") : "";
+            customVersion = customVersion != null ? customVersion.trim().replaceFirst("^[vV]", "") : "";
+            currentVersion = currentVersion != null ? currentVersion.trim().replaceFirst("^[vV]", "") : "";
+            remoteCustomVersion = remoteCustomVersion != null ? remoteCustomVersion.trim().replaceFirst("^[vV]", "") : "";
             
             boolean forceUpdate = jsonObject.optBoolean("force_update", false);
 
