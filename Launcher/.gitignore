@@ -1,0 +1,17 @@
+# Original Client
+/app-arizona-release_web/
+/app-rodina-release_web/
+
+# SIGNED KEY
+*.jks
+
+# Environment
+.env
+
+# Finished APK
+*.apk
+*.idsig
+
+# Python 
+__pycache__/
+*.pyc
