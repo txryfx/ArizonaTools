@@ -3,5 +3,5 @@
   "version": "17.9.5",
   "rodina_version": "17.9.5",
   "custom_version": "17.9.5",
-  "force_update": true
+  "force_update": false
 }
