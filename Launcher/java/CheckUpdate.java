@@ -45,21 +45,21 @@ public class CheckUpdate {
             
             String currentVersion = jsonObject.getString(packageName.contains("rodina") ? "rodina_version" : "version");
             String remoteCustomVersion = jsonObject.optString("custom_version", currentVersion);
-
-            appVersion = appVersion != null ? appVersion.trim().replaceFirst("^[vV]", "") : "";
-            customVersion = customVersion != null ? customVersion.trim().replaceFirst("^[vV]", "") : "";
-            currentVersion = currentVersion != null ? currentVersion.trim().replaceFirst("^[vV]", "") : "";
-            remoteCustomVersion = remoteCustomVersion != null ? remoteCustomVersion.trim().replaceFirst("^[vV]", "") : "";
             
             boolean forceUpdate = jsonObject.optBoolean("force_update", false);
 
-            if (!appVersion.equals(currentVersion) || !customVersion.equals(remoteCustomVersion)) {
+            final String cleanAppVersion = appVersion != null ? appVersion.trim().replaceFirst("^[vV]", "") : "";
+            final String cleanCustomVersion = customVersion != null ? customVersion.trim().replaceFirst("^[vV]", "") : "";
+            final String cleanCurrentVersion = currentVersion != null ? currentVersion.trim().replaceFirst("^[vV]", "") : "";
+            final String cleanRemoteCustomVersion = remoteCustomVersion != null ? remoteCustomVersion.trim().replaceFirst("^[vV]", "") : "";
+
+            if (!cleanAppVersion.equals(cleanCurrentVersion) || !cleanCustomVersion.equals(cleanRemoteCustomVersion)) {
                 
                 activity.runOnUiThread(() -> {
                     AlertDialog.Builder builder = new AlertDialog.Builder(context)
-                            .setTitle("ℹ️ NeoMLoader Update ℹ️")
-                            .setMessage("Установленный у вас лаунчер версии " + customVersion + " не актуален!\n\n"
-                                      + "Используйте версию " + remoteCustomVersion + " для стабильной игры.")
+                            .setTitle("ℹ️ RodinaTools Update ℹ️")
+                            .setMessage("Установленный у вас лаунчер версии " + cleanCustomVersion + " не актуален!\n\n"
+                                      + "Используйте версию " + cleanRemoteCustomVersion + " для стабильной игры.")
                             .setPositiveButton("Скачать", (dialogInterface, i) -> {
                                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(updateUrl));
                                 context.startActivity(browserIntent);
