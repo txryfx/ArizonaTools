@@ -19,7 +19,7 @@
         "build": 90,
         "version": "2.4",
         "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x64/arztools_x64.lua",
-        "sha256": "cae0c04bfd1ab3bf80272719534617743ea035dd8318ab9f69d35530b1aa88d0",
+        "sha256": "be06be9e625078c35fdbef3626e1b20bb7105ec1991cf76f9ee8229e092ce104",
         "changes": [
           "Добавлена система звукового уведомления при ловле репорта",
           "Исправлено отображение названия транспорта в информационной панели",
