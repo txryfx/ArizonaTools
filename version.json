@@ -19,7 +19,7 @@
         "build": 92,
         "version": "2.6",
         "url": "https://raw.githubusercontent.com/txryfx/ArizonaTools/refs/heads/main/tools/x64/arztools_x64.lua",
-        "sha256": "4e2cefd393bc97e30bdae2f19de570e4b6f23b64a89ed104900d9c543380fd53",
+        "sha256": "442f3e41ea014b20817016250587f4a135a18848a84599af486fc2408cc1a1dd",
         "changes": [
           "Исправлена проблема с ClickWarp - ранее телепортироваться в транспорт было нельзя",
           "Исправлена проблема с получением урона от сервера при полёте на AirBrake - добавлена защита по всем каналам урона",
